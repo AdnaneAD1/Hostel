@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class RoomsController extends Controller
 {
     public function indexpage(){
-        return view('rooms.welcome');
+        return view('welcome');
     }
 }
