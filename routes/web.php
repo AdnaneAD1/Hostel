@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RoomsController;
 use Illuminate\Support\Facades\Route;
@@ -15,10 +16,14 @@ Route::post('/reservation', [RoomsController::class, 'store'])->name('reservatio
 Route::get('/payment-success', [RoomsController::class, 'paymentSuccess'])->name('payment.success');
 Route::get('/payment-cancel', [RoomsController::class, 'paymentCancel'])->name('payment.cancel');
 
+Route::get('/dash', [AdminController::class, 'dashbord'])->name('dash');
+Route::get('/deconnexion', [AdminController::class, 'deconnexion'])->name('deconnexion');
+Route::get('/createadmin', [AdminController::class, 'createadmin'])->name('createadmin');
 // Admin
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

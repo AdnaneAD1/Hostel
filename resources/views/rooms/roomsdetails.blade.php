@@ -146,7 +146,7 @@ https://templatemo.com/tm-591-villa-agency
                                             {{ session('error') }}
                                         </div>
                                     @endif
-                                    <div class="col-lg-10 offset-lg-3 info-table" data-aos="fade">
+                                    <div class="col-lg-7 offset-lg-3 info-table" data-aos="fade">
                                         <h2 style="text-align: center; padding-bottom:10%;">Réservation Form</h2>
                                         <form class="row g-3" id="reservation-form" method="POST"
                                             action="{{ route('reservation') }}">
@@ -189,19 +189,19 @@ https://templatemo.com/tm-591-villa-agency
                                                         name="children" value="0" required>
                                                 </div>
                                                 <div class="col-12">
-                                                    <button type="button" style="width:30%;"
+                                                    <button type="button" style="width:55%;"
                                                         class="btn btn-primary btn-lg" id="next-step">Next Step</button>
                                                 </div>
                                             </div>
                                             <!-- Champs pour le formulaire de paiement -->
                                             <div id="payment-details" style="display: none;">
-                                                <div id="total-amount">
+                                                <div id="total-amount" class="col-md-12">
                                                     <label for="montant" class="form-label">Montant total à payer: <span
                                                             id="amount-value"></span>€</label>
                                                 </div>
                                                 <div class="col-md-12">
                                                     <label for="payment-method" class="form-label">Méthode de
-                                                        paiement</label>
+                                                        paiement: </label>
                                                     <select id="payment-method" name="payment_method"
                                                         class="form-select" required>
                                                         <option value="">Sélectionner la méthode</option>
@@ -218,7 +218,7 @@ https://templatemo.com/tm-591-villa-agency
                                                 </div>
                                                 <!-- Ajoutez d'autres champs pour les coordonnées du paiement si nécessaire -->
                                                 <div class="col-12">
-                                                    <button type="submit" style="width:30%;"
+                                                    <button type="submit" style="width:40%;"
                                                         class="btn btn-primary btn-lg"
                                                         id="payment-submit">Payment</button>
                                                 </div>
@@ -231,11 +231,11 @@ https://templatemo.com/tm-591-villa-agency
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="info-table">
+                    <div class="info-table" >
                         <ul>
                             @foreach ($room->facilities as $facility => $data)
                                 <li>
-                                    <i class="{{ $data['icon'] }}">{{ $facility }}</i>
+                                    <i class="{{ $data['icon'] }}"> <span style="font-family: Arial, sans-serif;">{{ $facility }}</span></i>
                                 </li>
                             @endforeach
                         </ul>

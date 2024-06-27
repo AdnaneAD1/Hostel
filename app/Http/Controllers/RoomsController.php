@@ -79,8 +79,19 @@ class RoomsController extends Controller
         return view('rooms/contact');
     }
 
-    // Réservation et paiment
+    // Générer un identifiant unique
+    private function generateUniqueID($length = 10)
+    {
+        $characters = '0123456789';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
+    }
 
+    // Réservation et paiment
     public function store(Request $request)
     {
         $request->validate([
@@ -109,8 +120,13 @@ class RoomsController extends Controller
         $tauxDeConversion = 655.957; // Taux de conversion fixe
         $totalAmountXOF = $totalAmount * $tauxDeConversion;
 
+        do {
+            $ID_reservation = $this->generateUniqueID();
+        } while (Reservation::where('id', $ID_reservation)->exists());
+
         // Création de la réservation
         $reservation = new Reservation([
+            'id' => $ID_reservation,
             'check_in' => $check_in,
             'check_out' => $check_out,
             'email' => $request->email,
