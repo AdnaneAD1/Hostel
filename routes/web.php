@@ -11,11 +11,15 @@ Route::get('/roomlist2', [RoomsController::class, 'roomlist2'])->name('roomlist2
 Route::get('/roomdetails/{id}', [RoomsController::class, 'roomdetails'])->name('roomdetails');
 Route::get('/contact', [RoomsController::class, 'contact'])->name('contact');
 
-//Reservation
+// Reservation
 Route::post('/reservation', [RoomsController::class, 'store'])->name('reservation');
 Route::get('/payment-success', [RoomsController::class, 'paymentSuccess'])->name('payment.success');
 Route::get('/payment-cancel', [RoomsController::class, 'paymentCancel'])->name('payment.cancel');
 
+// Contact
+Route::post('/sendcontact', [RoomsController::class, 'contactform'])->name('contactform');
+
+// Admin
 Route::get('/dash', [AdminController::class, 'dashbord'])->name('dash');
 Route::get('/deconnexion', [AdminController::class, 'deconnexion'])->name('deconnexion');
 Route::get('/createadmin', [AdminController::class, 'createadmin'])->name('createadmin');

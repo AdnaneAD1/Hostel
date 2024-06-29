@@ -2,13 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\SendContactMarkdownMail;
 use App\Models\Room;
 use FedaPay\FedaPay;
 use Omnipay\Omnipay;
 use FedaPay\Transaction;
 use App\Models\Reservation;
 use Illuminate\Http\Request;
+use App\Mail\ContactMarkdownMail;
+use App\Mail\ReservationMarkdownMail;
 use Illuminate\Support\Facades\Session;
+use App\Jobs\SendReservationMarkdownMail;
 
 class RoomsController extends Controller
 {
@@ -176,7 +180,8 @@ class RoomsController extends Controller
                 ]);
 
                 $transaction->sendNow();
-
+                $mailabler = new ReservationMarkdownMail($reservation->email, $reservation->id);
+                SendReservationMarkdownMail::dispatch($reservation->email, $mailabler);
                 // Enregistrement des informations de réservation dans la base de données
                 $reservation->save();
 
@@ -192,6 +197,8 @@ class RoomsController extends Controller
     public function paymentSuccess($reservation)
     {
         // payment success et sauvegarde reservation
+        $mailabler = new ReservationMarkdownMail($reservation->email, $reservation->id);
+        SendReservationMarkdownMail::dispatch($reservation->email, $mailabler);
         $reservation->save();
         return redirect()->route('roomdetails')->with('success', 'Votre paiement a été traité avec succès.');
     }
@@ -199,5 +206,26 @@ class RoomsController extends Controller
     public function paymentCancel()
     {
         return redirect()->route('roomdetails')->with('error', 'Votre paiement a été annulé.');
+    }
+
+    public function contactform(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|min:5',
+            'email' => 'required|email',
+            'subject' => 'required|min:3',
+            'message' => 'required|min:10',
+        ]);
+        $mailablec = new ContactMarkdownMail($request->name, $request->email, $request->subject, $request->message);
+        try {
+            // Envoyer la tâche à la file d'attente
+            SendContactMarkdownMail::dispatch($mailablec);
+            return redirect()
+                ->back()
+                ->with('success', 'Votre message a bien été transféré.');
+        } catch (\Exception $e) {
+            return redirect()->back()
+                ->with('error', 'Erreur lors de l\'envoi du message, veillez recommencer plus tard.');
+        }
     }
 }

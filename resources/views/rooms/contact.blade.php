@@ -112,7 +112,19 @@ https://templatemo.com/tm-591-villa-agency
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <form id="contact-form" action="" method="post">
+                    <form id="contact-form" action="{{ route('contactform')}}" method="post">
+                        {{ csrf_field() }}
+                        @if(session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
+
+                        @if(session('error'))
+                            <div class="alert alert-danger">
+                                {{ session('error') }}
+                            </div>
+                        @endif
                         <div class="row">
                             <div class="col-lg-12">
                                 <fieldset>
