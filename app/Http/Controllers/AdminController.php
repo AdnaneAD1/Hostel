@@ -84,10 +84,11 @@ class AdminController extends Controller
 
     public function createadmin()
     {
-        if (!Auth::user()) {
+        if (Auth::check()) {
+            return view('auth.register');
+        } else {
             Auth::logout();
             return redirect()->route('login');
         }
-        return redirect()->route('register');
     }
 }

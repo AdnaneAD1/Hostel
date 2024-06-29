@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-    <title>Hostel</title>
+    <title>RIVER OF LAND</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -52,7 +52,7 @@ https://templatemo.com/tm-591-villa-agency
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="/" class="logo">
-                            <h1>GUESTHOUSE</h1>
+                            <h1 style="white-space: nowrap;">RIVER OF LAND</h1>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -60,7 +60,7 @@ https://templatemo.com/tm-591-villa-agency
                             <li><a href="/">Acceuil</a></li>
                             <li><a href="/roomlist">Nos Chambres</a></li>
                             <li><a href="/contact" class="active">Contactez-nous</a></li>
-                            <li><a href="#"><i class="fa fa-calendar"></i>Faire une réservation</a></li>
+                            <li><a href="/roomlist"><i class="fa fa-calendar"></i>Faire une réservation</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>

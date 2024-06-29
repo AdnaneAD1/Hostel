@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-    <title>Hostel</title>
+    <title>RIVER OF LAND</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -54,15 +54,15 @@ https://templatemo.com/tm-591-villa-agency
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="/" class="logo">
-                            <h1>GUESTHOUSE</h1>
+                            <h1 style="white-space: nowrap;">RIVER OF LAND</h1>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/roomlist">Properties</a></li>
-                            <li><a href="/contact">Contact Us</a></li>
-                            <li><a href="#"><i class="fa fa-calendar"></i>Schedule a visit</a></li>
+                            <li><a href="/">Accueil</a></li>
+                            <li><a href="/roomlist" class="active">Nos chambres</a></li>
+                            <li><a href="/contact">Contactez-nous</a></li>
+                            <li><a href="/roomlist"><i class="fa fa-calendar"></i>Faire une réservation</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -110,8 +110,9 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button large-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                    style="border: none; background-color: white;">
                                     Quelques images de la chambre
                                 </button>
                             </h2>
@@ -126,8 +127,9 @@ https://templatemo.com/tm-591-villa-agency
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button class="accordion-button large-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                                    style="border: none; background-color: white;">
                                     Réservation
                                 </button>
                             </h2>
@@ -231,11 +233,12 @@ https://templatemo.com/tm-591-villa-agency
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="info-table" >
+                    <div class="info-table">
                         <ul>
                             @foreach ($room->facilities as $facility => $data)
                                 <li>
-                                    <i class="{{ $data['icon'] }}"> <span style="font-family: Arial, sans-serif;">{{ $facility }}</span></i>
+                                    <i class="{{ $data['icon'] }}"> <span
+                                            style="font-family: Arial, sans-serif;">{{ $facility }}</span></i>
                                 </li>
                             @endforeach
                         </ul>

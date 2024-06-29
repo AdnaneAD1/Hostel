@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-    <title>Hostel</title>
+    <title>RIVER OF LAND</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -51,8 +51,8 @@ https://templatemo.com/tm-591-villa-agency
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            <h1>GUESTHOUSE</h1>
+                        <a href="/" class="logo">
+                            <h1 style="white-space: nowrap;">RIVER OF LAND</h1>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -60,7 +60,7 @@ https://templatemo.com/tm-591-villa-agency
                             <li><a href="/">Accueil</a></li>
                             <li><a href="/roomlist" class="active">Nos chambres</a></li>
                             <li><a href="/contact">Contactez-nous</a></li>
-                            <li><a href="#"><i class="fa fa-calendar"></i>Faire une réservation</a></li>
+                            <li><a href="/roomlist"><i class="fa fa-calendar"></i>Faire une réservation</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -87,7 +87,7 @@ https://templatemo.com/tm-591-villa-agency
     <div class="section properties">
         <div class="container">
             <div class="row properties-box">
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
+                <!-- <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
                     <div class="item card">
                         <img src="assets/img/property-01.jpg" alt="">
                         <span class="category">STUDIO</span>
@@ -103,11 +103,28 @@ https://templatemo.com/tm-591-villa-agency
                             <a href="/roomdetails">Faire une réservation</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
                     <div class="item card">
-                        <img src="assets/img/property-02.jpg" alt="">
+                        <img src="assets/img/NewLUXURY/IMG_5075.JPG" alt="">
                         <span class="category">LUXURY</span>
+                        <h6>40€</h6>
+                        <ul>
+                            <li>1 Lit: <span>3 places</span></li>
+                            <li>Salles de bain: <span>2</span></li>
+                            <li>Cuisine bien équipée</li>
+                            <li>WiFi</li>
+                            <li>Smart TV</li>
+                        </ul>
+                        <div class="main-button" value="1">
+                            <a href="/roomdetails">Faire une réservation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac">
+                    <div class="item card">
+                        <img src="assets/img/NEWMERRYLAND/IMG_9702.JPG" alt="">
+                        <span class="category">MERRY LAND</span>
                         <h6>40€</h6>
                         <ul>
                             <li>1 Lit: <span>3 places</span></li>
@@ -121,24 +138,7 @@ https://templatemo.com/tm-591-villa-agency
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac">
-                    <div class="item card">
-                        <img src="assets/img/property-03.jpg" alt="">
-                        <span class="category">MERRYLAND 1</span>
-                        <h6>40€</h6>
-                        <ul>
-                            <li>1 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>2</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="3">
-                            <a href="/roomdetails">Faire une réservation</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
+                <!-- <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
                     <div class="item card">
                         <img src="assets/img/property-04.jpg" alt="">
                         <span class="category">MERRYLAND 2</span>
@@ -154,11 +154,11 @@ https://templatemo.com/tm-591-villa-agency
                             <a href="/roomdetails">Faire une réservation</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
                     <div class="item card">
-                        <img src="assets/img/property-05.jpg" alt="">
-                        <span class="category">ECHO DU BOIS 1</span>
+                        <img src="assets/img/Newlesechosdubois/IMG_7247.JPG" alt="">
+                        <span class="category">LES ECHO DU BOIS</span>
                         <h6>60€</h6>
                         <ul>
                             <li>2 Lit: <span>3 places</span></li>
@@ -167,12 +167,12 @@ https://templatemo.com/tm-591-villa-agency
                             <li>WiFi</li>
                             <li>Smart TV</li>
                         </ul>
-                        <div class="main-button">
-                            <a href="/roomdetails" value="5">Faire une réservation</a>
+                        <div class="main-button" value="3">
+                            <a href="/roomdetails">Faire une réservation</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+                <!-- <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
                     <div class="item card">
                         <img src="assets/img/property-06.jpg" alt="">
                         <span class="category">ECHO DU BOIS 2</span>
@@ -188,11 +188,11 @@ https://templatemo.com/tm-591-villa-agency
                             <a href="/roomdetails">Faire une réservation</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
                     <div class="item card">
-                        <img src="assets/img/property-03.jpg" alt="">
-                        <span class="category">AL PACINO 1</span>
+                        <img src="assets/img/NewAlpalacio/IMG_7133.JPG" alt="">
+                        <span class="category">AL PACINO</span>
                         <h6>60€</h6>
                         <ul>
                             <li>2 Lit: <span>3 places</span></li>
@@ -201,12 +201,12 @@ https://templatemo.com/tm-591-villa-agency
                             <li>WiFi</li>
                             <li>Smart TV</li>
                         </ul>
-                        <div class="main-button" value="7">
+                        <div class="main-button" value="4">
                             <a href="/roomdetails">Faire une réservation</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+                <!-- <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
                     <div class="item card">
                         <img src="assets/img/property-02.jpg" alt="">
                         <span class="category">AL PACINO 2</span>
@@ -222,10 +222,10 @@ https://templatemo.com/tm-591-villa-agency
                             <a href="/roomdetails">Faire une réservation</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
                     <div class="item card">
-                        <img src="assets/img/property-01.jpg" alt="">
+                        <img src="assets/img/NewHandlove/IMG_6776.JPG" alt="">
                         <span class="category">HAND LOVE 1</span>
                         <h6>60€</h6>
                         <ul>
@@ -235,13 +235,81 @@ https://templatemo.com/tm-591-villa-agency
                             <li>WiFi</li>
                             <li>Smart TV</li>
                         </ul>
-                        <div class="main-button" value="9">
+                        <div class="main-button" value="5">
+                            <a href="/roomdetails">Faire une réservation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
+                    <div class="item card">
+                        <img src="assets/img/Newparadisiaque/IMG_6572.JPG" alt="">
+                        <span class="category">PARADISIAQUE</span>
+                        <h6>60€</h6>
+                        <ul>
+                            <li>2 Lit: <span>3 places</span></li>
+                            <li>Salles de bain: <span>3</span></li>
+                            <li>Cuisine bien équipée</li>
+                            <li>WiFi</li>
+                            <li>Smart TV</li>
+                        </ul>
+                        <div class="main-button" value="6">
+                            <a href="/roomdetails">Faire une réservation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
+                    <div class="item card">
+                        <img src="assets/img/newHandLove2/IMG_6876.JPG" alt="">
+                        <span class="category">HAND LOVE 2</span>
+                        <h6>60€</h6>
+                        <ul>
+                            <li>2 Lit: <span>3 places</span></li>
+                            <li>Salles de bain: <span>3</span></li>
+                            <li>Machine à laver</li>
+                            <li>WiFi</li>
+                            <li>Smart TV</li>
+                        </ul>
+                        <div class="main-button" value="7">
+                            <a href="/roomdetails">Faire une réservation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac">
+                    <div class="item card">
+                        <img src="assets/img/NewPaquerette/IMG_6547.JPG" alt="">
+                        <span class="category">PAQUERETTE</span>
+                        <h6>55€</h6>
+                        <ul>
+                            <li>2 Lit: <span>3 places</span></li>
+                            <li>Salles de bain: <span>3</span></li>
+                            <li>Cuisine bien équipée</li>
+                            <li>WiFi</li>
+                            <li>Smart TV</li>
+                        </ul>
+                        <div class="main-button" value="13">
+                            <a href="/roomdetails">Faire une réservation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
+                    <div class="item card">
+                        <img src="assets/img/NewRIVEROfLove/IMG_5841.JPG" alt="">
+                        <span class="category">RIVER OF LOVE</span>
+                        <h6>35€</h6>
+                        <ul>
+                            <li>1 Lit: <span>3 places</span></li>
+                            <li>Salles de bain: <span>2</span></li>
+                            <li>Cuisine bien équipée</li>
+                            <li>WiFi</li>
+                            <li>Smart TV</li>
+                        </ul>
+                        <div class="main-button" value="15">
                             <a href="/roomdetails">Faire une réservation</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-12">
                     <ul class="pagination">
                         <li><a class="is_active" href="#">1</a></li>
@@ -249,7 +317,7 @@ https://templatemo.com/tm-591-villa-agency
                         <li><a href="/roomlist2">>></a></li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 

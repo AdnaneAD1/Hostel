@@ -154,7 +154,7 @@
                                 <h2 class="text-white pb-2 fw-bold">Dashboard</h2>
                             </div>
                             <div class="ml-md-auto py-2 py-md-0">
-                                <a href="{{ route('register') }}" class="btn btn-secondary btn-round">Ajouter
+                                <a href="{{ route('createadmin') }}" class="btn btn-secondary btn-round">Ajouter
                                     Administrateur</a>
                             </div>
                         </div>
