@@ -1,0 +1,45 @@
+
+.room__card:hover {
+    transform: scale(1.05);
+}
+.room__card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+/* .card:hover .btn {
+    background-color: red;
+} */
+
+.btn-primary {
+    background-color: #ff9800;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff5722;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.btn-block {
+    margin-top: 20px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.bot{
+    margin-bottom: 2em;
+}
+
+
+

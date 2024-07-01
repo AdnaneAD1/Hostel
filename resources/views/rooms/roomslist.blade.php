@@ -14,6 +14,8 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('assets/css/styles2.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
@@ -87,224 +89,237 @@ https://templatemo.com/tm-591-villa-agency
     <div class="section properties">
         <div class="container">
             <div class="row properties-box">
-                <!-- <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
-                    <div class="item card">
-                        <img src="assets/img/property-01.jpg" alt="">
-                        <span class="category">STUDIO</span>
-                        <h6>25€</h6>
-                        <ul>
-                            <li>1 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>2</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="1">
-                            <a href="/roomdetails">Faire une réservation</a>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str bot">
+                    <div class="room__card">
+                        <div class="room__card__image">
+                            <img src="assets/img/NewLUXURY/IMG_5075.JPG" alt="">
+                            <div class="room__card__icons">
+                                <span><i class="ri-heart-fill"></i></span>
+                                <span><i class="ri-paint-fill"></i></span>
+                                <span><i class="ri-shield-star-line"></i></span>
+                            </div>
                         </div>
-                    </div>
-                </div> -->
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
-                    <div class="item card">
-                        <img src="assets/img/NewLUXURY/IMG_5075.JPG" alt="">
-                        <span class="category">LUXURY</span>
-                        <h6>40€</h6>
-                        <ul>
-                            <li>1 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>2</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="1">
-                            <a href="/roomdetails">Faire une réservation</a>
+                        <div class="room__card__details item">
+                            <span class="category">LUXURY</span>
+                            <ul>
+                                <li>1 Lit: <span>3 places</span></li>
+                                <li>Salles de bain: <span>2</span></li>
+                                <li>Cuisine bien équipée</li>
+                                <li>WiFi</li>
+                                <li>Smart TV</li>
+                            </ul>
+                            <h5>Starting from <span>40€/nuit</span></h5>
+                            <div class="chambre" value="1">
+                                <a href="/roomdetails"><button class="btn">Réserver Maintenant</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac">
-                    <div class="item card">
-                        <img src="assets/img/NEWMERRYLAND/IMG_9702.JPG" alt="">
-                        <span class="category">MERRY LAND</span>
-                        <h6>40€</h6>
-                        <ul>
-                            <li>1 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>2</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="2">
-                            <a href="/roomdetails">Faire une réservation</a>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac bot">
+                    <div class="room__card">
+                        <div class="room__card__image">
+                            <img src="assets/img/NEWMERRYLAND/IMG_9702.JPG" alt="">
+                            <div class="room__card__icons">
+                                <span><i class="ri-heart-fill"></i></span>
+                                <span><i class="ri-paint-fill"></i></span>
+                                <span><i class="ri-shield-star-line"></i></span>
+                            </div>
+                        </div>
+                        <div class="room__card__details item">
+                            <span class="category">MERRY LAND</span>
+                            <ul>
+                                <li>1 Lit: <span>3 places</span></li>
+                                <li>Salles de bain: <span>2</span></li>
+                                <li>Cuisine bien équipée</li>
+                                <li>WiFi</li>
+                                <li>Smart TV</li>
+                            </ul>
+                            <h5>Starting from <span>40€/nuit</span></h5>
+                            <div class="chambre" value="2">
+                                <a href="/roomdetails"><button class="btn">Réserver Maintenant</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
-                    <div class="item card">
-                        <img src="assets/img/property-04.jpg" alt="">
-                        <span class="category">MERRYLAND 2</span>
-                        <h6>40€</h6>
-                        <ul>
-                            <li>1 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>2</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="4">
-                            <a href="/roomdetails">Faire une réservation</a>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str bot">
+                    <div class="room__card">
+                        <div class="room__card__image">
+                            <img src="assets/img/Newlesechosdubois/IMG_7247.JPG" alt="">
+                            <div class="room__card__icons">
+                                <span><i class="ri-heart-fill"></i></span>
+                                <span><i class="ri-paint-fill"></i></span>
+                                <span><i class="ri-shield-star-line"></i></span>
+                            </div>
                         </div>
-                    </div>
-                </div> -->
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
-                    <div class="item card">
-                        <img src="assets/img/Newlesechosdubois/IMG_7247.JPG" alt="">
-                        <span class="category">LES ECHO DU BOIS</span>
-                        <h6>60€</h6>
-                        <ul>
-                            <li>2 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>3</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="3">
-                            <a href="/roomdetails">Faire une réservation</a>
+                        <div class="room__card__details item">
+                            <span class="category">LES ECHO DU BOIS</span>
+                            <ul>
+                                <li>2 Lit: <span>3 places</span></li>
+                                <li>Salles de bain: <span>3</span></li>
+                                <li>Cuisine bien équipée</li>
+                                <li>WiFi</li>
+                                <li>Smart TV</li>
+                            </ul>
+                            <h5>Starting from <span>60€/nuit</span></h5>
+                            <div class="chambre" value="3">
+                                <a href="/roomdetails"><button class="btn">Réserver Maintenant</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
-                    <div class="item card">
-                        <img src="assets/img/property-06.jpg" alt="">
-                        <span class="category">ECHO DU BOIS 2</span>
-                        <h6>60€</h6>
-                        <ul>
-                            <li>2 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>3</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="6">
-                            <a href="/roomdetails">Faire une réservation</a>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str bot">
+                    <div class="room__card">
+                        <div class="room__card__image">
+                            <img src="assets/img/NewAlpalacio/IMG_7133.JPG" alt="">
+                            <div class="room__card__icons">
+                                <span><i class="ri-heart-fill"></i></span>
+                                <span><i class="ri-paint-fill"></i></span>
+                                <span><i class="ri-shield-star-line"></i></span>
+                            </div>
                         </div>
-                    </div>
-                </div> -->
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
-                    <div class="item card">
-                        <img src="assets/img/NewAlpalacio/IMG_7133.JPG" alt="">
-                        <span class="category">AL PACINO</span>
-                        <h6>60€</h6>
-                        <ul>
-                            <li>2 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>3</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="4">
-                            <a href="/roomdetails">Faire une réservation</a>
+                        <div class="room__card__details item">
+                            <span class="category">AL PACINO</span>
+                            <ul>
+                                <li>2 Lit: <span>3 places</span></li>
+                                <li>Salles de bain: <span>3</span></li>
+                                <li>Cuisine bien équipée</li>
+                                <li>WiFi</li>
+                                <li>Smart TV</li>
+                            </ul>
+                            <h5>Starting from <span>60€/nuit</span></h5>
+                            <div class="chambre" value="4">
+                                <a href="/roomdetails"><button class="btn">Réserver Maintenant</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
-                    <div class="item card">
-                        <img src="assets/img/property-02.jpg" alt="">
-                        <span class="category">AL PACINO 2</span>
-                        <h6>60€</h6>
-                        <ul>
-                            <li>2 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>3</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="8">
-                            <a href="/roomdetails">Faire une réservation</a>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv bot">
+                    <div class="room__card">
+                        <div class="room__card__image">
+                            <img src="assets/img/NewHandlove/IMG_6776.JPG" alt="">
+                            <div class="room__card__icons">
+                                <span><i class="ri-heart-fill"></i></span>
+                                <span><i class="ri-paint-fill"></i></span>
+                                <span><i class="ri-shield-star-line"></i></span>
+                            </div>
                         </div>
-                    </div>
-                </div> -->
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
-                    <div class="item card">
-                        <img src="assets/img/NewHandlove/IMG_6776.JPG" alt="">
-                        <span class="category">HAND LOVE 1</span>
-                        <h6>60€</h6>
-                        <ul>
-                            <li>2 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>3</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="5">
-                            <a href="/roomdetails">Faire une réservation</a>
+                        <div class="room__card__details item">
+                            <span class="category">HAND LOVE 1</span>
+                            <ul>
+                                <li>2 Lit: <span>3 places</span></li>
+                                <li>Salles de bain: <span>3</span></li>
+                                <li>Cuisine bien équipée</li>
+                                <li>WiFi</li>
+                                <li>Smart TV</li>
+                            </ul>
+                            <h5>Starting from <span>60€/nuit</span></h5>
+                            <div class="chambre" value="5">
+                                <a href="/roomdetails"><button class="btn">Réserver Maintenant</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
-                    <div class="item card">
-                        <img src="assets/img/Newparadisiaque/IMG_6572.JPG" alt="">
-                        <span class="category">PARADISIAQUE</span>
-                        <h6>60€</h6>
-                        <ul>
-                            <li>2 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>3</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="6">
-                            <a href="/roomdetails">Faire une réservation</a>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv bot">
+                    <div class="room__card">
+                        <div class="room__card__image">
+                            <img src="assets/img/Newparadisiaque/IMG_6572.JPG" alt="">
+                            <div class="room__card__icons">
+                                <span><i class="ri-heart-fill"></i></span>
+                                <span><i class="ri-paint-fill"></i></span>
+                                <span><i class="ri-shield-star-line"></i></span>
+                            </div>
+                        </div>
+                        <div class="room__card__details item">
+                            <span class="category">PARADISIAQUE</span>
+                            <ul>
+                                <li>2 Lit: <span>3 places</span></li>
+                                <li>Salles de bain: <span>3</span></li>
+                                <li>Cuisine bien équipée</li>
+                                <li>WiFi</li>
+                                <li>Smart TV</li>
+                            </ul>
+                            <h5>Starting from <span>60€/nuit</span></h5>
+                            <div class="chambre" value="6">
+                                <a href="/roomdetails"><button class="btn">Réserver Maintenant</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
-                    <div class="item card">
-                        <img src="assets/img/newHandLove2/IMG_6876.JPG" alt="">
-                        <span class="category">HAND LOVE 2</span>
-                        <h6>60€</h6>
-                        <ul>
-                            <li>2 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>3</span></li>
-                            <li>Machine à laver</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="7">
-                            <a href="/roomdetails">Faire une réservation</a>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str bot">
+                    <div class="room__card">
+                        <div class="room__card__image">
+                            <img src="assets/img/newHandLove2/IMG_6876.JPG" alt="">
+                            <div class="room__card__icons">
+                                <span><i class="ri-heart-fill"></i></span>
+                                <span><i class="ri-paint-fill"></i></span>
+                                <span><i class="ri-shield-star-line"></i></span>
+                            </div>
+                        </div>
+                        <div class="room__card__details item">
+                            <span class="category">HAND LOVE 2</span>
+                            <ul>
+                                <li>2 Lit: <span>3 places</span></li>
+                                <li>Salles de bain: <span>3</span></li>
+                                <li>Machine à laver</li>
+                                <li>WiFi</li>
+                                <li>Smart TV</li>
+                            </ul>
+                            <h5>Starting from <span>60€/nuit</span></h5>
+                            <div class="chambre" value="7">
+                                <a href="/roomdetails"><button class="btn">Réserver Maintenant</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac">
-                    <div class="item card">
-                        <img src="assets/img/NewPaquerette/IMG_6547.JPG" alt="">
-                        <span class="category">PAQUERETTE</span>
-                        <h6>55€</h6>
-                        <ul>
-                            <li>2 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>3</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="13">
-                            <a href="/roomdetails">Faire une réservation</a>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac bot">
+                    <div class="room__card">
+                        <div class="room__card__image">
+                            <img src="assets/img/NewPaquerette/IMG_6547.JPG" alt="">
+                            <div class="room__card__icons">
+                                <span><i class="ri-heart-fill"></i></span>
+                                <span><i class="ri-paint-fill"></i></span>
+                                <span><i class="ri-shield-star-line"></i></span>
+                            </div>
+                        </div>
+                        <div class="room__card__details item">
+                            <span class="category">PAQUERETTE</span>
+                            <ul>
+                                <li>2 Lit: <span>3 places</span></li>
+                                <li>Salles de bain: <span>3</span></li>
+                                <li>Cuisine bien équipée</li>
+                                <li>WiFi</li>
+                                <li>Smart TV</li>
+                            </ul>
+                            <h5>Starting from <span>55€/nuit</span></h5>
+                            <div class="chambre" value="8">
+                                <a href="/roomdetails"><button class="btn">Réserver Maintenant</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
-                    <div class="item card">
-                        <img src="assets/img/NewRIVEROfLove/IMG_5841.JPG" alt="">
-                        <span class="category">RIVER OF LOVE</span>
-                        <h6>35€</h6>
-                        <ul>
-                            <li>1 Lit: <span>3 places</span></li>
-                            <li>Salles de bain: <span>2</span></li>
-                            <li>Cuisine bien équipée</li>
-                            <li>WiFi</li>
-                            <li>Smart TV</li>
-                        </ul>
-                        <div class="main-button" value="15">
-                            <a href="/roomdetails">Faire une réservation</a>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str bot">
+                    <div class="room__card">
+                        <div class="room__card__image">
+                            <img src="assets/img/NewRIVEROfLove/IMG_5841.JPG" alt="">
+                            <div class="room__card__icons">
+                                <span><i class="ri-heart-fill"></i></span>
+                                <span><i class="ri-paint-fill"></i></span>
+                                <span><i class="ri-shield-star-line"></i></span>
+                            </div>
+                        </div>
+                        <div class="room__card__details item">
+                            <span class="category">RIVER OF LOVE</span>
+                            <ul>
+                                <li>1 Lit: <span>3 places</span></li>
+                                <li>Salles de bain: <span>2</span></li>
+                                <li>Cuisine bien équipée</li>
+                                <li>WiFi</li>
+                                <li>Smart TV</li>
+                            </ul>
+                            <h5>Starting from <span>35€/nuit</span></h5>
+                            <div class="chambre" value="9">
+                                <a href="/roomdetails"><button class="btn">Réserver Maintenant</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>

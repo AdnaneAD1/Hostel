@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Affichage des chambres
 document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.main-button').forEach(function(button) {
+    document.querySelectorAll('.chambre').forEach(function(button) {
         button.addEventListener('click', function(event) {
             event.preventDefault();
             const roomId = this.getAttribute('value');
