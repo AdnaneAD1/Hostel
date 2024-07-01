@@ -41,5 +41,24 @@
     margin-bottom: 2em;
 }
 
+.accordion-button:focus,
+.accordion-button:active {
+    border: none !important;
+    box-shadow: none !important;
+}
+.accordion-button {
+    border: none;
+    background-color: white;
+    outline: none;
+}
+
+.accordion-button:hover,
+.accordion-button:focus,
+.accordion-button:active {
+    border: none;
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+}
 
 

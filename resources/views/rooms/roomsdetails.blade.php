@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="{{ asset('assets/css/styles2.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/templatemo-villa-agency.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl.css') }}">
@@ -127,9 +128,9 @@ https://templatemo.com/tm-591-villa-agency
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button large-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
-                                    style="border: none; background-color: white;">
+                                <button class="accordion-button large-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo" style="border: none; background-color: white;">
                                     Réservation
                                 </button>
                             </h2>
@@ -248,44 +249,53 @@ https://templatemo.com/tm-591-villa-agency
         </div>
     </div>
 
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-column">
-                <h3>Rejoignez nous !</h3>
-                <p>Nam libero tempore cum soluta nobis eseligendi optio cumque nihil impedit quo minus maxime
-                    placeat
-                    facere</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+    <footer class="footer" id="contact">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="logo">
+                    <a href="#home"><img src="{{ asset('assets/img/logo-river.png') }}" alt="logo" /></a>
+                </div>
+                <p class="section__description">
+                    Découvrez un monde de confort, de luxe et d'aventure en explorant nos chambres soigneusement concu
+                    pour vous.
+                </p>
+                <button class="btn nav__btn">Réserver Maintenant</button>
+
+            </div>
+            <div class="footer__col">
+                <h4>Liens rapides</h4>
+                <ul class="footer__links">
+                    <li><a href="#">Acceuil</a></li>
+                    <li><a href="#">Nos chambres</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>NOS SERVICES</h4>
+                <ul class="footer__links">
+
+                    <li><a href="#">Assistance Concierge</a></li>
+                    <li><a href="#">Options de Réservation Flexibles</a></li>
+                    <li><a href="#">Bien-être & Loisirs</a></li>
+
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>CONTACTEZ-NOUS</h4>
+                <ul class="footer__links">
+                    <li><a href="#">riveroflandk@info.com</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="#"><img src="{{ asset('assets/img/facebook.png') }}" alt="facebook" /></a>
+                    <a href="#"><img src="{{ asset('assets/img/instagram.png') }}" alt="instagram" /></a>
+                    <a href="#"><img src="{{ asset('assets/img/youtube.png') }}" alt="youtube" /></a>
+                    <a href="#"><img src="{{ asset('assets/img/twitter.png') }}" alt="twitter" /></a>
                 </div>
             </div>
-            <div class="footer-column">
-                <h3>Quick Link</h3>
-                <ul>
-                    <li><a href="/">Acceuil</a></li>
-                    <li><a href="/roomlist">Nos chambres</a></li>
-                    <li><a href="/contact">Contactez-nous</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Nos services supplemetaires</h3>
-                <ul>
-                    <li><a href="#">SPA Treatment</a></li>
-                    <li><a href="#">Food & Drinks</a></li>
-                    <li><a href="#">Breakfast</a></li>
-                </ul>
-            </div>
-
         </div>
-        <div class="footer-bottom">
-            <p>© 2023 Guesthouse. All Rights Reserved.</p>
-
+        <div class="footer__bar">
+            Copyright © 2024 River Of Land. All rights reserved.
         </div>
     </footer>
-
     <!-- Scripts -->
     <script src="{{ asset('assets/js/scripts.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>

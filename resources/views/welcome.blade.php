@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>River Of Land</title>
+    <link rel="stylesheet" href="{{ asset('assets/css/styles2.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/templatemo-villa-agency.css') }}">
 </head>
 
 <body>
